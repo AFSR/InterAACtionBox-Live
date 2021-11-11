@@ -1,5 +1,7 @@
 # InterAACtionBox-Live
 
+Nécessite une clé usb d'au moins 8Go (Attention : le contenu sera effacé)
+
 ## Etape 1: Téléchargement de l'ISO
 
 Le fichier est disponible ici :
