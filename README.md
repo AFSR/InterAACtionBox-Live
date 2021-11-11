@@ -5,7 +5,7 @@ Nécessite une clé usb d'au moins 8Go (Attention : le contenu sera effacé)
 ## Etape 1: Téléchargement de l'ISO
 
 Le fichier est disponible ici :
-- https://www.swisstransfer.com/d/07319c22-71fe-4b20-8e50-834daf2ff31f
+- https://interaactionbox.afsr.fr/Interaactionbox-v.Beta-2.4.4.11.05.iso
 
 ## Etape 2: Graver l'ISO téléchargé sur la clé USB
 
