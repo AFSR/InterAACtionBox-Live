@@ -39,31 +39,35 @@ Sélectionner votre clé USB dans la liste.
 
 Cliquer sur "flash".
 
-## Etape 3: inséré la clé USB dans l'ordinateur
+## Etape 3: inséré la clé USB dans la surface
 
-cf https://github.com/InteraactionGroup/InterAACtionBox pour voir l'ordinateur que nous avons sélectionné.
+cf https://github.com/InteraactionGroup/InterAACtionBox pour voir la surface que nous avons utilisée.
 
-## Etape 4: boot sur la clé USB
+Le mieux est d'avoir un switch avec minimum 3 emplacements afin de pouvoir connecter un clavier et/ou souris si besoin.
 
-presser F2 dès que le logo dell apparaît
+## Etape 4: Désactiver les sécurité de la tablette
 
-Une fois dans le menu BIOS.
+Avant de pouvoir boot sur la clé il faut désactiver 2 sécurités :
+* BitLocker
+* Secure Boot.
 
-![menuBIOS](assets/tutorial/bootMenu.png)
+Pour le BitLocker, accéder au Panneau de configuration puis aller dans Système.<br>
+Ensuite cliquer sur "A propos de" dans le côté gauche.<br>
+Faire défiler jusqu'à "Chiffrement de l'appareil" et cliquer sur le bouton "Desactiver" (cette action peut prendre quelques minutes).<br>
+Un fois cela terminer, BitLocker sera désactiver.
 
-Il faudra aller dans la rubrique "Boot configuration".
+Pour le Secure Boot, il faut accéder à l'UEFI de la surface.<br>
+Pour acceder à l'UEFI, il faut appuyer sur le bouton d'augmentation de volume de la surface et le maintenir enfoncé, puis allumer la surface.<br>
+Une fois arrivé dans l'UEFI, (arrêter d'appuyer sur le bouton d'augmentation de volume) aller dan l'onglet "Security".<br>
+Cliquer sur le bouton "Change configuration"  dans la partie Secure Boot.<br>
+Dans le menu déroulant, choisir "None".<br>
+Enfin aller dans l'onglet "Exit" et cliquer sur "Restart Now".
 
-![boot config](assets/tutorial/bootConfiguration.png)
+## Etape 5: boot sur la clé USB
 
-Puis il faudra réorganiser les lignes en mettant les ports USB en premier.
+Pour boot sur la clé usb, il faut, avant d'allumer la surface, appuyer et maintenir le bouton de "diminution du volume" jusqu'à voir le logo ubuntu.
 
-![boot Organiser](assets/tutorial/bootOrganisation.png)
-
-Pour finir, appliquer les modifications et redémarrer l'ordinateur.
-
-![boot accept](assets/tutorial/bootAcceptChanges.png)
-
-## Etape 5: installation de l'OS
+## Etape 6: installation de l'OS
 
 Avant d'arriver au menu, cet écran de chargement s'affichera, veuillez patienter..
 
@@ -73,7 +77,7 @@ Vous allez arriver sur le premier écran.
 
 ![installation premier ecran](assets/tutorial/InstallationInteraaaction.png)
 
-Sélectionner "installer interaaaction". <br>
+Sélectionner "installer interaaction". <br>
 
 Choisir la langue de votre clavier.
 
@@ -116,14 +120,12 @@ Une fois l'installation terminée, une fenêtre va apparaître et vous demandera
 
 ![redemarrer](assets/tutorial/redemarrer.png)
 
-si l'utilisateur est "admin", le mot de passe est "localadmin"
-si l'utilisateur est "user", le mot de passe est "localuser"
-
 Une fois connecté, aller dans "Mise à jour disponible !" en haut à gauche de l'écran.
 
 ![interaaaction](assets/tutorial/interaactionBox.png)
 
 Sur cette page, appuyer sur "installer tous" pour avoir accès à toutes les applications.
+
 ![mise à jour](assets/tutorial/miseajour.png)
 
 ## Bug connu
