@@ -1,51 +1,23 @@
 # InterAACtionBox-Live
 
-Nécessite une clé usb d'au moins 8Go (Attention : le contenu sera effacé)
+## Etape 1: Préparation de la surface
 
-## Etape 1: Téléchargement de l'ISO
+Avant de continuer, il est nécessaire d'avoir au moins 2 port usb disponible :
+* 1 pour la clé usb
+* 1 pour un clavier afin de pouvoir écrire
+* 1 pour la souris (mais ceci est optionnel, on peut tout faire avec un clavier)
 
-Le fichier est disponible ici :
-- https://interaactionbox.afsr.fr/Interaactionbox-v.Beta-2.4.4.11.05.iso
+Pour ce faire, le mieux est d'avoir un switch afin de pouvoir tous connecter.
 
-## Etape 2: Graver l'ISO téléchargé sur la clé USB
+Nous avons utilisé ce switch -> https://www.amazon.fr/Sabrent-commutateurs-dalimentation-individuels-HB-UM43/dp/B00JX1ZS5O/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sabrent+switch&qid=1645442409&sr=8-4
 
-Utiliser balenaEtcher (qui est multi-platerforme - mac, windows, linux - et simple à utiliser) ou un outil équivalent
-
-Aller sur https://www.balena.io/etcher/
-
-<img width="1372" alt="Capture d’écran 2021-10-15 à 19 15 24" src="https://user-images.githubusercontent.com/23239584/137527182-8a0568b4-1d0a-42f0-93a6-53fe2017a2e7.png">
-
-Choisissez votre système d'exploitation 
-
-<img width="1372" alt="Capture d’écran 2021-10-15 à 19 17 01" src="https://user-images.githubusercontent.com/23239584/137527340-87c5893b-5091-431b-b745-184c7faa7008.png">
-
-Installer le logiciel et le lancer.
-
-L'écran suivant s'ouvre :
-
-<img width="868" alt="Capture d’écran 2021-10-15 à 19 11 52" src="https://user-images.githubusercontent.com/23239584/137526990-314bfd93-5f6b-4c74-a5ed-a43015f8227e.png">
-
-Appuyez sur "+", une fenêtre s'ouvre. Choisir l'iso téléchargé.
-
-<img width="912" alt="Capture d’écran 2021-10-15 à 19 12 23" src="https://user-images.githubusercontent.com/23239584/137527021-3b7c5dc8-99a5-4f89-9045-d5b06b99c335.png">
-
-Appuyez sur "select", une fenêtre s'ouvre. 
-
-<img width="912" alt="Capture d’écran 2021-10-15 à 19 12 34" src="https://user-images.githubusercontent.com/23239584/137527032-34150af6-e57d-47c8-b020-a88b22a725d2.png">
-
-Sélectionner votre clé USB dans la liste.
-
-<img width="912" alt="Capture d’écran 2021-10-15 à 19 12 40" src="https://user-images.githubusercontent.com/23239584/137527042-aae78a2f-6d1f-4c86-9520-a974e7dfa59b.png">
-
-Cliquer sur "flash".
-
-## Etape 3: Désactiver les sécurité de la tablette
+## Etape 2: Désactiver les sécurité de la tablette
 
 Avant de pouvoir boot sur la clé il faut désactiver 2 sécurités :
 * BitLocker
 * Secure Boot.
 
-Pour le BitLocker, accéder au Panneau de configuration puis aller dans Système.<br>
+Pour le BitLocker, lancer la surface sous Windows puis accéder au Panneau de configuration et enfin aller dans Système.<br>
 Ensuite cliquer sur "A propos de" dans le côté gauche.<br>
 Faire défiler jusqu'à "Chiffrement de l'appareil" et cliquer sur le bouton "Desactiver" (cette action peut prendre quelques minutes).<br>
 Un fois cela terminer, BitLocker sera désactiver.
@@ -57,17 +29,11 @@ Cliquer sur le bouton "Change configuration"  dans la partie Secure Boot.<br>
 Dans le menu déroulant, choisir "None".<br>
 Enfin aller dans l'onglet "Exit" et cliquer sur "Restart Now".
 
-## Etape 4: inséré la clé USB dans la surface
-
-cf https://github.com/InteraactionGroup/InterAACtionBox pour voir la surface que nous avons utilisée.
-
-Le mieux est d'avoir un switch avec minimum 3 emplacements afin de pouvoir connecter un clavier et/ou souris si besoin.
-
-## Etape 5: boot sur la clé USB
+## Etape 3: Boot sur la clé USB
 
 Pour boot sur la clé usb, il faut, avant d'allumer la surface, appuyer et maintenir le bouton de "diminution du volume" jusqu'à voir le logo ubuntu.
 
-## Etape 5: installation de l'OS
+## Etape 4: Installation de l'OS
 
 Avant d'arriver au menu, cet écran de chargement s'affichera, veuillez patienter..
 
