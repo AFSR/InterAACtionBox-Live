@@ -33,6 +33,8 @@ Enfin aller dans l'onglet "Exit" et cliquer sur "Restart Now".
 
 Pour boot sur la clé usb, il faut, avant d'allumer la surface, appuyer et maintenir le bouton de "diminution du volume" jusqu'à voir le logo ubuntu.
 
+Si vous ne savez pas comment faire, allez voir cette page web -> https://support.microsoft.com/fr-fr/surface/comment-utiliser-l-uefi-de-surface-df2c8942-dfa0-859d-4394-95f45eb1c3f9
+
 ## Etape 4: Installation de l'OS
 
 Avant d'arriver au menu, cet écran de chargement s'affichera, veuillez patienter.
