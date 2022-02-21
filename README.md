@@ -20,7 +20,7 @@ Avant de pouvoir boot sur la clé il faut désactiver 2 sécurités :
 Pour le BitLocker, lancer la surface sous Windows puis accéder au Panneau de configuration et enfin aller dans Système.<br>
 Ensuite cliquer sur "A propos de" dans le côté gauche.<br>
 Faire défiler jusqu'à "Chiffrement de l'appareil" et cliquer sur le bouton "Desactiver" (cette action peut prendre quelques minutes).<br>
-Un fois cela terminer, BitLocker sera désactiver.
+Un fois cela terminer, BitLocker sera désactivé.
 
 Pour le Secure Boot, il faut accéder à l'UEFI de la surface.<br>
 Pour acceder à l'UEFI, il faut appuyer sur le bouton d'augmentation de volume de la surface et le maintenir enfoncé, puis allumer la surface.<br>
@@ -35,7 +35,7 @@ Pour boot sur la clé usb, il faut, avant d'allumer la surface, appuyer et maint
 
 ## Etape 4: Installation de l'OS
 
-Avant d'arriver au menu, cet écran de chargement s'affichera, veuillez patienter..
+Avant d'arriver au menu, cet écran de chargement s'affichera, veuillez patienter.
 
 ![chargement](assets/tutorial/chargementUbuntu.png)
 
@@ -49,7 +49,7 @@ Choisir la langue de votre clavier.
 
 ![langue du clavier](assets/tutorial/langueClavier.png)
 
-Choisir votre réseau Wi-Fi (Attention, pour installer les logiciels ou faire les mises à jour une connexion internet est obligatoire !).
+Choisir votre réseau Wi-Fi (Attention, une connexion internet est nécessaire pour mettre à jour).
 
 ![connexion](assets/tutorial/connexion.png)
 
@@ -59,8 +59,8 @@ Choisir l'installation minimale et laisser le reste par défaut.
 
 Le type d'installation va être demandé, ici 2 choix s'offrent à vous :
 
-- Soit vous décidez de créer un dual boot et vous sélectionnez le premier choix (mais vous aurez assurément des complications si vous avez un window au parallèle).
-- Soit vous décidez d'écraser votre ancien système d'exploitation et mettre celui-ci à la place, dans ce cas prendre le second choix.
+- Soit vous décidez de créer un dual boot (dans ce cas, vous pourrez démarrer avec Windows ou avec l'InterAACtionBox), sélectionnez le premier choix.
+- Soit vous décidez d'écraser votre ancien système d'exploitation (dans ce cas, vous ne pourrez démarrer qu'avec l'InterAACtionBox), sélectionnez le second choix.
 
 ![dualboot choix](assets/tutorial/dualbootOrFormat.png)
 
@@ -70,11 +70,11 @@ Si vous prenez le second choix vous aurez une fenêtre qui vous demandera si vou
 
 Cliquer sur continuer. <br>
 
-Sélectionner votre ville puis continuer.
+Sélectionnez votre ville puis continuer.
 
 ![fuseau horaire](assets/tutorial/fuseauHoraire.png)
 
-Créer votre utilisateur avec un nom et un mot de passe puis continuer.
+Créez votre utilisateur avec un nom et un mot de passe puis continuer.
 
 ![user](assets/tutorial/createUser.png)
 
@@ -86,11 +86,11 @@ Une fois l'installation terminée, une fenêtre va apparaître et vous demandera
 
 ![redemarrer](assets/tutorial/redemarrer.png)
 
-Une fois connecté, aller dans "Mise à jour disponible !" en haut à gauche de l'écran.
+Une fois connecté, aller dans "Mise à jour disponible !" en haut à gauche de l'écran si vous avez une connexion internet.
 
 ![interaaaction](assets/tutorial/interaactionBox.png)
 
-Sur cette page, appuyer sur "installer tous" pour avoir accès à toutes les applications.
+Sur cette page, appuyer sur "installer tous" pour avoir accès à toutes les applications (nécessite une connexion internet).
 
 ![mise à jour](assets/tutorial/miseajour.png)
 
