@@ -1,12 +1,9 @@
 # InterAACtionBox-Live
 
-## Etape 1: inséré la clé USB dans l'ordinateur
+## Etape 1: boot sur la clé USB
 
-cf https://github.com/InteraactionGroup/InterAACtionBox pour voir l'ordinateur que nous avons sélectionné.
-
-## Etape 2: boot sur la clé USB
-
-presser F2 dès que le logo dell apparaît
+Avant d'allumer l'ordinateur, inséré la clé USB dans l'ordinateur.<br>
+Ensuite allumer l'ordinateur et presser F2 dès que le logo dell apparaît.<br>
 
 Une fois dans le menu BIOS.
 
@@ -24,7 +21,7 @@ Pour finir, appliquer les modifications et redémarrer l'ordinateur.
 
 ![boot accept](assets/tutorial/bootAcceptChanges.png)
 
-## Etape 5: installation de l'OS
+## Etape 2: installation de l'OS
 
 Avant d'arriver au menu, cet écran de chargement s'affichera, veuillez patienter..
 
