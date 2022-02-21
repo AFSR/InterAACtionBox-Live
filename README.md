@@ -39,13 +39,7 @@ Sélectionner votre clé USB dans la liste.
 
 Cliquer sur "flash".
 
-## Etape 3: inséré la clé USB dans la surface
-
-cf https://github.com/InteraactionGroup/InterAACtionBox pour voir la surface que nous avons utilisée.
-
-Le mieux est d'avoir un switch avec minimum 3 emplacements afin de pouvoir connecter un clavier et/ou souris si besoin.
-
-## Etape 4: Désactiver les sécurité de la tablette
+## Etape 3: Désactiver les sécurité de la tablette
 
 Avant de pouvoir boot sur la clé il faut désactiver 2 sécurités :
 * BitLocker
@@ -63,11 +57,17 @@ Cliquer sur le bouton "Change configuration"  dans la partie Secure Boot.<br>
 Dans le menu déroulant, choisir "None".<br>
 Enfin aller dans l'onglet "Exit" et cliquer sur "Restart Now".
 
+## Etape 4: inséré la clé USB dans la surface
+
+cf https://github.com/InteraactionGroup/InterAACtionBox pour voir la surface que nous avons utilisée.
+
+Le mieux est d'avoir un switch avec minimum 3 emplacements afin de pouvoir connecter un clavier et/ou souris si besoin.
+
 ## Etape 5: boot sur la clé USB
 
 Pour boot sur la clé usb, il faut, avant d'allumer la surface, appuyer et maintenir le bouton de "diminution du volume" jusqu'à voir le logo ubuntu.
 
-## Etape 6: installation de l'OS
+## Etape 5: installation de l'OS
 
 Avant d'arriver au menu, cet écran de chargement s'affichera, veuillez patienter..
 
