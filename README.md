@@ -5,7 +5,7 @@ Nécessite une clé usb d'au moins 8Go (Attention : le contenu sera effacé)
 ## Etape 1: Téléchargement de l'ISO
 
 Le fichier est disponible ici :
-- https://www.swisstransfer.com/d/4c017457-6f82-44df-b345-97ff8abaef2e
+- https://www.swisstransfer.com/d/e452d38f-8ba0-4337-815d-9437e7456e54
 
 Si vous utilisez une surface utiliser l'iso présent dans ce lien :
 - https://www.swisstransfer.com/d/0dac7cdb-6849-470b-80dd-30c544deb949
