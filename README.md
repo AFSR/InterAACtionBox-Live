@@ -1,6 +1,6 @@
 # Tobii_Config
 
-Logiciel permettant de faire la calibration de sa commande oculaire.
+Logiciel permettant de faire la calibration de sa commande oculaire de type Tobii.
 
 ## Étape 1: Démarrer la calibration
 
@@ -25,7 +25,7 @@ Comme cela.
 
 ## Étape 3: Détection des yeux
 
-Une fois le placement de la commande ocualaire finalisé, le logiciel va essayer de détecter vos yeux. <br>
+Une fois le placement de la commande oculaire finalisé, le logiciel va essayer de détecter vos yeux. <br>
 
 Ce qui donne :
 
@@ -44,15 +44,15 @@ Après quelques secondes, notre 1er point apparaît :
 
 <img alt="" src="./assets/tutorial/firstDot.png">
 
-Après avoir explosé celui-ci juste en le regardant, la 1er phase de point commence :
+  Après avoir fait exploser celui-ci en le regardant, une série de points apparaît :
 
 <img alt="" src="./assets/tutorial/firstCalibrate.png">
 
-Après avoir les avoir tous explosé (toujours avec le regard), la 2ème et dernière phase de point commence :
+Après avoir les avoir tous fait exploser (toujours avec le regard), la 2ème et dernière série de points apparaît :
 
 <img alt="" src="./assets/tutorial/secondCalibrate.png">
 
-Une fois tous les points de la 2ème phase explosé, si tous c'est bien passé, un message disant que la calibration est réussie apparaît :
+Une fois tous les points de la 2ème série explosés, si tous c'est bien passé, un message disant que la calibration est réussie apparaît :
 
 <img alt="" src="./assets/tutorial/endCalibration.png">
 
