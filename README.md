@@ -1,49 +1,81 @@
-# InterAACtionBox-Live
+# Tobii_Config
 
-Nécessite une clé usb d'au moins 8Go (Attention : le contenu sera effacé)
+Logiciel permettant de faire la calibration de sa commande oculaire.
 
-## Etape 1: Téléchargement de l'ISO
+## Étape 1: Démarrer la calibration
 
-Le fichier est disponible ici :
-- https://www.swisstransfer.com/d/e452d38f-8ba0-4337-815d-9437e7456e54
+Avant de commencer la calibration de notre commande oculaire, on doit choisir l'écran que l'on va utiliser.
 
-Si vous utilisez une surface utiliser l'iso présent dans ce lien :
-- https://www.swisstransfer.com/d/0dac7cdb-6849-470b-80dd-30c544deb949
+<img alt="Choix de l'écran" src="./assets/tutorial/startConfig.png">
 
-## Etape 2: Graver l'ISO téléchargé sur la clé USB
+À cette étape, il faut bien placer la commande oculaire pour la suite.
 
-Utiliser balenaEtcher (qui est multi-platerforme - mac, windows, linux - et simple à utiliser) ou un outil équivalent
+## Étape 2: Placement de la commande oculaire
 
-Aller sur https://www.balena.io/etcher/
+Après avoir choisi l'écran sur lequel on va utiliser notre commande oculaire. <br>
+On va devoir régler la taille de notre commande oculaire.
 
-<img width="1372" alt="Capture d’écran 2021-10-15 à 19 15 24" src="https://user-images.githubusercontent.com/23239584/137527182-8a0568b4-1d0a-42f0-93a6-53fe2017a2e7.png">
+<img alt="" src="./assets/tutorial/EyeTrackerSize.png">
 
-Choisissez votre système d'exploitation 
+Pour ce faire, il suffit (à l'aide de la souris) de déplacer les 2 lignes de l'image de la commande oculaire pour que ceux-ci soient les mêmes que notre commande occulaire.
 
-<img width="1372" alt="Capture d’écran 2021-10-15 à 19 17 01" src="https://user-images.githubusercontent.com/23239584/137527340-87c5893b-5091-431b-b745-184c7faa7008.png">
+<img alt="" src="./assets/tutorial/setSizeEyeTracker.png">
 
-Installer le logiciel et le lancer.
+Comme cela.
 
-L'écran suivant s'ouvre :
+## Étape 3: Détection des yeux
 
-<img width="868" alt="Capture d’écran 2021-10-15 à 19 11 52" src="https://user-images.githubusercontent.com/23239584/137526990-314bfd93-5f6b-4c74-a5ed-a43015f8227e.png">
+Une fois le placement de la commande ocualaire finalisé, le logiciel va essayer de détecter vos yeux. <br>
 
-Appuyez sur "+", une fenêtre s'ouvre. Choisir l'iso téléchargé.
+Ce qui donne :
 
-<img width="912" alt="Capture d’écran 2021-10-15 à 19 12 23" src="https://user-images.githubusercontent.com/23239584/137527021-3b7c5dc8-99a5-4f89-9045-d5b06b99c335.png">
+<img alt="" src="./assets/tutorial/eyes.png">
 
-Appuyez sur "select", une fenêtre s'ouvre. 
+Puis après un certain temps, le logiciel va lancer la calibration de la commande oculaire.
 
-<img width="912" alt="Capture d’écran 2021-10-15 à 19 12 34" src="https://user-images.githubusercontent.com/23239584/137527032-34150af6-e57d-47c8-b020-a88b22a725d2.png">
+## Étape 4: La calibration
 
-Sélectionner votre clé USB dans la liste.
+Nous allons enfin commencer la calibration de notre commande oculaire.<br>
+L'objectif est simple, regarder les points jusqu'à qu'ils explosent.
 
-<img width="912" alt="Capture d’écran 2021-10-15 à 19 12 40" src="https://user-images.githubusercontent.com/23239584/137527042-aae78a2f-6d1f-4c86-9520-a974e7dfa59b.png">
+<img alt="" src="./assets/tutorial/startCalibration.png">
 
-Cliquer sur "flash" et attendez la création de la clé bootable.
+Après quelques secondes, notre 1er point apparaît :
 
-## Etape 3: Installation de l'ISO
+<img alt="" src="./assets/tutorial/firstDot.png">
 
-Si vous avez choisi l'iso pour la surface, allez voir ce guide -> https://github.com/AFSR/InterAACtionBox-Live/blob/surface/README.md
+Après avoir explosé celui-ci juste en le regardant, la 1er phase de point commence :
 
-Si vous avez choisi l'autre iso, allez voir ce guide -> https://github.com/AFSR/InterAACtionBox-Live/blob/windows/README.md
+<img alt="" src="./assets/tutorial/firstCalibrate.png">
+
+Après avoir les avoir tous explosé (toujours avec le regard), la 2ème et dernière phase de point commence :
+
+<img alt="" src="./assets/tutorial/secondCalibrate.png">
+
+Une fois tous les points de la 2ème phase explosé, si tous c'est bien passé, un message disant que la calibration est réussie apparaît :
+
+<img alt="" src="./assets/tutorial/endCalibration.png">
+
+Félicitations, vous avez terminé de configurer et de calibrer votre commande oculaire. <br>
+Après quelques secondes, le logiciel va se fermer et InterAACtionBox Interface va se lancer.
+
+## Quitter Tobii_Config
+
+Si vous souhaitez quitter Tobii_Config en cours de route, il vous suffit de cliquer sur la croix blanche en haut à droite du logiciel. <br>
+
+Cette fenêtre va alors apparaître :
+
+<img alt="" src="./assets/tutorial/exitTobiiConfig.png">
+
+Ensuite, il vous suffit de soit :
+* Attendre quelques secondes et le logiciel va se fermer tout seul
+* Cliquer sur le bouton "Exit" au milieu de l'écran
+
+## Lancer Tobii_Config sans commande oculaire
+
+Si vous essayez de lancer Tobii_Config sans commande oculaire connecter, alors cette fenêtre apparaîtra :
+
+<img alt="" src="./assets/tutorial/noEyeTracker.png">
+
+Le logiciel vous demandera de connecter une commande oculaire avant de poursuivre la configuration et la calibration de celui-ci.<br>
+Pour quitter, cliquer sur la croix blanche en haut à droite.
