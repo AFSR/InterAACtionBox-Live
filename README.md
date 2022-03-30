@@ -8,7 +8,7 @@ Avant de commencer la calibration de notre commande oculaire, on doit choisir l'
 
 <img alt="Choix de l'écran" src="./assets/tutorial/startConfig.png">
 
-À cette étape, il faut bien placer la commande oculaire pour la suite.
+À cette étape, il faut bien attacher la commande oculaire à l'écran pour la suite (le mieux est en dessous de l'écran si possible).
 
 ## Étape 2: Placement de la commande oculaire
 
