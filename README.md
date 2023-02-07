@@ -5,10 +5,7 @@ Nécessite une clé usb d'au moins 8Go (Attention : le contenu sera effacé)
 ## Etape 1: Téléchargement de l'ISO
 
 Le fichier est disponible ici :
-- https://www.swisstransfer.com/d/e452d38f-8ba0-4337-815d-9437e7456e54
-
-Si vous utilisez une surface utiliser l'iso présent dans ce lien :
-- https://www.swisstransfer.com/d/0dac7cdb-6849-470b-80dd-30c544deb949
+- https://drive.google.com/file/d/1BfK7CXs6rmmVOpD_NSJqX8JqVryovUZH/view?usp=share_link
 
 ## Etape 2: Graver l'ISO téléchargé sur la clé USB
 
@@ -44,6 +41,4 @@ Cliquer sur "flash" et attendez la création de la clé bootable.
 
 ## Etape 3: Installation de l'ISO
 
-Si vous avez choisi l'iso pour la surface, allez voir ce guide -> https://github.com/AFSR/InterAACtionBox-Live/blob/surface/README.md
-
-Si vous avez choisi l'autre iso, allez voir ce guide -> https://github.com/AFSR/InterAACtionBox-Live/blob/windows/README.md
+Allez voir ce guide -> https://github.com/AFSR/InterAACtionBox-Live/blob/windows/README.md
