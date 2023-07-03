@@ -70,12 +70,12 @@ Ubuntu va s'installer veuillez attendre.
 
 ![chargementUbuntu](assets/tutorial/chargementApresInstall.png)
 
-Une fois l'installation terminée, une fenêtre va apparaître et vous demandera de redémarrer, appuyez sur "redémarrer maintenant".
+Une fois l'installation terminée, une fenêtre va apparaître et vous demandera de redémarrer, appuyez sur "redémarrer maintenant". <br>
+Après quelques instants, vous allez vous rentrer sur un écran noir avec le logo de l'interAACtionBox. <br>
+A ce moment la, retirer la clé USB et appuyer sur la touche "Entrer" de votre clavier. <br>
+Attendez encore quelques secondes et votre ordinateur va redemmarer et lancer l'interAAction fraîchement installer.
 
 ![redemarrer](assets/tutorial/redemarrer.png)
-
-si l'utilisateur est "admin", le mot de passe est "localadmin"
-si l'utilisateur est "user", le mot de passe est "localuser"
 
 Une fois connecté, aller dans "Mise à jour disponible !" en haut à gauche de l'écran.
 
