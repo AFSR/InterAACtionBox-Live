@@ -5,7 +5,10 @@ Nécessite une clé usb d'au moins 8Go (Attention : le contenu sera effacé)
 ## Etape 1: Téléchargement de l'ISO
 
 Le fichier est disponible ici :
-- https://drive.google.com/file/d/1BfK7CXs6rmmVOpD_NSJqX8JqVryovUZH/view?usp=share_link
+* [Iso InterAACtionBox 03/07/2023](https://drive.google.com/file/d/10gbf91pxzj5Gwt9Wjw-wmnoykG17x8IT/view?usp=sharing)
+
+Le fichier md5 associé a l'iso est aussi disponible ici, si vous voulez testé son intégrité :
+* [MD5Sum InterAACtionBox 03/07/2023]https://drive.google.com/file/d/1JEhi9bSppG4bcWk2o57qCJp-oxeflX4B/view?usp=sharing
 
 ## Etape 2: Graver l'ISO téléchargé sur la clé USB
 
